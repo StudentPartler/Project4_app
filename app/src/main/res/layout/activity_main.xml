@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="16dp">
+
+<!-- Title -->
+<TextView
+    android:id="@+id/titleTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Distress Signal App"
+    android:textSize="24sp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="16dp"/>
+
+<!-- SOS Button -->
+<Button
+    android:id="@+id/sosButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="SOS"
+    android:textSize="20sp"
+    android:layout_below="@id/titleTextView"
+    android:layout_marginTop="16dp"/>
+
+<!-- Location Sharing -->
+<Button
+    android:id="@+id/locationButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Share Location"
+    android:textSize="20sp"
+    android:layout_below="@id/sosButton"
+    android:layout_marginTop="16dp"/>
+
+<!-- Audio/Video Recording -->
+<Button
+    android:id="@+id/recordButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Record"
+    android:textSize="20sp"
+    android:layout_below="@id/locationButton"
+    android:layout_marginTop="16dp"/>
+
+</RelativeLayout>
